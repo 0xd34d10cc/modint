@@ -4,10 +4,11 @@ description = "Modular arithmetic integer"
 repository = "https://github.com/0xd34d10cc/modint"
 homepage = "https://github.com/0xd34d10cc/modint"
 documentation = "https://docs.rs/modint"
+readme = "README.md"
 keywords = ["mathematics", "numerics"]
 license = "MIT"
 name = "modint"
-version = "0.1.0"
+version = "0.1.1"
 
 
 [dependencies]
