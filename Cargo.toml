@@ -1,7 +1,10 @@
 [package]
 authors = ["0xd34d10cc <0xd34d10cc@gmail.com>"]
+description = "Modular arithmetic integer"
+license = "MIT"
 name = "modint"
 version = "0.1.0"
+
 
 [dependencies]
 num-traits = "0.1.41"
