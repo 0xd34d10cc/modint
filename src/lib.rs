@@ -102,7 +102,7 @@ impl<V, M> Sub for Unsigned<V, M>
     type Output = Self;
 
     fn sub(self, rhs: Self) -> Self {
-        let value = if self.value > rhs.value {
+        let value = if self.value >= rhs.value {
             self.value - rhs.value
         } else {
             V::from::<M>() - (rhs.value - self.value)
